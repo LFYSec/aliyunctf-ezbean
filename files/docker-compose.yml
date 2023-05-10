@@ -1,0 +1,7 @@
+version: "3"
+services:
+  tomcat:
+    build: .
+    image: java_web
+    ports:
+      - "8083:8082"
